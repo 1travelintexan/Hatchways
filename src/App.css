@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@7300&display=swap");
+
+body {
+  background-color: rgb(231, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  background-color: rgb(255, 254, 254);
+  width: 800px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.student {
+  display: flex;
+  border-bottom: 1px solid rgb(185, 183, 183);
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.image-student {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  border: 1px solid rgb(185, 183, 183);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.names {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+
+.indent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  margin-left: 30px;
+}
+.indent p {
+  margin-top: -10px;
+}
+
+input {
+  width: 800px;
+  height: 60px;
+  font-size: 1.5vw;
+  border: none;
+  border-bottom: 1px solid rgb(185, 183, 183);
+  color: rgb(138, 137, 137);
+  margin: 0px;
+  padding: 0px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(191, 191, 191);
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+}
+.tag-input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 10px 0px 30px;
+}
